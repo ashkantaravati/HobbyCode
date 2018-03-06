@@ -31,4 +31,3 @@ print ('Listening ...')
 while 1:
     time.sleep(10)
 
-#423835968:AAHWRK893v7eo7povrN0-1RRVRgm8SZbVjY
