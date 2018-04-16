@@ -49,7 +49,7 @@ def defaultedInput(defaultValue,promptMsg,inputFunc=input):
 def printError(exception,generalMessage,nextBehavior):
     print("{}\nError message is as follows:\n{}\n{}".format(generalMessage,str(exception),nextBehavior))
 
-def multiLineInput(promptText,printNotice=True):
+def multiLineInput(promptText='',printNotice=True):
     notice="Enter/Paste your content and send EOF character to save. *nix:Ctrl-D, Windows:Ctrl-Z"
     if printNotice:
         print(notice)
